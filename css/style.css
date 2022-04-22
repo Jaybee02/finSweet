@@ -1,0 +1,183 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  width:80%;
+  margin: 0 auto;
+}
+body{
+  font-family: 'Manrope', sans-serif;
+}
+
+.flex{
+  display:flex; 
+  flex-wrap: nowrap;
+}
+
+#service-section{
+  padding: 80px 0;
+}
+
+.left2 h4{
+  font-size:50px;
+}
+
+.left2 p {
+  margin-top: 20px;
+}
+#service-section .left2, #service-section .right{
+  width:45%;
+  margin:0 auto;
+}
+.vert{
+  border-left: 2px dotted #FF6433;
+  height:40px;
+  margin-top:-65px;
+  margin-left: 3.5%;
+  margin-bottom: 10px;
+}
+#service-section p{
+  color:#1E1B1B;
+  opacity: 0.6;
+}
+
+.txt2-sec{
+  margin-right:100px;
+}
+.txt2-sec p{
+  margin-bottom:27px;
+
+}
+ .txt2-sec h2{
+  margin-bottom: 10px;
+}
+
+#service-section .img-sec2 img{
+  width:50%;
+}
+
+#service-section .left2, #service-section .right2{
+  width: 45%;
+}
+
+#service-section ul {
+  list-style: none;
+}
+
+.orange-btn{
+  padding: 10px 8px;
+  background-color:#FF6433;
+  border:1px;
+  border-radius:5px;
+  color:white;
+  margin-top:30px;
+}
+
+/*Offer-section*/
+
+#offer-section{
+  background-color: #F2F2F2;
+  padding: 80px 0;
+}
+#offer-section .left3{
+  text-align: center;
+}
+#offer-section .left3 h2{
+  font-size: 50px;
+  margin-bottom:30px;
+}
+#offer-section .left3 p{
+  opacity:0.9;
+}
+
+.known{
+  display: flex;
+  justify-content: center;
+  flex-wrap:no-wrap;
+}
+.cont{
+  background-color: white;
+  width:220px;
+  height:170px;
+  margin: 3px;
+}
+.right4{
+  text-align: center;
+  padding: 40px;
+}
+.right3{
+  text-align: center;
+  padding: 40px;
+  background-color: #FF6433;
+  height:170px;
+}
+.ln{
+  padding-left:750px;
+  margin-bottom:25px;
+  font-size: 12px;
+}
+span{
+  width: 200px;;
+}
+
+/*Worshop*/
+#workshop-section{
+  background-color: #F2F2F2;;
+}
+
+.autos{
+  display:flex;
+}
+.writ {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:80p 0x;
+  background-color: #FF6433;
+  color:white;
+}
+.writ h2{
+  margin-top: 90px;
+}
+.blk-button{
+  padding:23px 20px;
+}
+
+
+
+.blk-btn{
+  padding:12px 17px;
+  border:2px;
+  border-radius: 5px;
+  color:white;
+  background-color: black;
+  margin-right: 200px;
+}
+
+.flex2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kd{
+  color:#661CE7;
+  text-decoration: solid;
+  font-size: 45px;
+  font-weight: 750;
+}
+.numbers{
+  margin-top: 20px;
+}
+
+/*Brands-section*/
+#brands-section{
+  padding: 80px 0;
+}
+.txt6 h3{
+  text-align: center;
+  font-size: 35px;
+}
