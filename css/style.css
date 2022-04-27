@@ -12,6 +12,154 @@ body{
   font-family: 'Manrope', sans-serif;
 }
 
+/*Main-section*/
+
+#main-header .list-bar{
+  display:flex;
+  align-items:center;
+}
+#main-section{
+  padding: 50px 0;
+}
+#main-header .flex{
+  justify-content: space-between;
+  align-items:center;
+  padding: 20px 5px;
+}
+
+.list-order ul,li{
+  margin-right:20px;
+}
+.assistance{
+  display:flex;
+  padding-left:20px;
+}
+.list-order ul{
+  display:flex;
+  list-style:none;
+}
+.list-bar .list-order{
+  border-right: 2px solid #cccccc;
+}
+.assistance .logo-ass{
+  margin-right:30px;
+}
+
+ #main-section .text-sec{
+  width:45%;
+  height: 100vh;
+}
+
+.right-hand{
+  background: url("https://i.postimg.cc/pdKmjQ5C/Header-Image.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:80vh;
+  width:55%;
+}
+
+.flex{
+  display:flex;
+}
+h1{
+  font-size:48px;
+}
+
+.clock-sec{
+  display:flex;
+  align-items:center;
+  margin-top:30px;
+}
+.clock-sec .clock-logo{
+  margin-top: 10px;
+}
+
+.text-logo{
+  padding-left:10px;
+}
+
+.orange-btn{
+  padding: 10px 8px;
+  background-color:#FF6433;
+  border:1px;
+  border-radius:5px;
+  color:white;
+  margin-top:30px;
+}
+
+/* Quote-section */
+
+#quote-section {
+  background: #E2E6E9;
+  padding: 80px 0;
+}
+
+#quote-section .left-section{
+  width:50%
+}
+#quote-section .right-form-section{
+  width:40%
+}
+
+#quote-section ul {
+  list-style: none;
+}
+
+#quote-section ul li {
+  margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+#quote-section .left-section .image-box {
+  width: 5%;
+  margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+  width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+  width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#quote-section .left-section .text-box p{
+  color: #1E1B1B;
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+#quote-section .right-form-section h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#quote-section .right-form-section input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1px;
+}
+
+.text-box a{
+  text-decoration: none;
+  color: black;
+}
+span{
+  padding-left:10px;
+}
+
+/* Service-section */
 .flex{
   display:flex; 
   flex-wrap: nowrap;
@@ -35,10 +183,11 @@ body{
 .vert{
   border-left: 2px dotted #FF6433;
   height:57px;
-  margin-top:-70px;
+  margin-top:-85px;
   margin-left:4%;
   margin-bottom:1px;
 }
+
 #service-section p{
   color:#1E1B1B;
   opacity: 0.6;
@@ -47,6 +196,7 @@ body{
 .txt2-sec{
   margin-right:100px;
 }
+
 .txt2-sec p{
   margin-bottom:27px;
 
@@ -176,12 +326,29 @@ span{
 }
 
 /*Brands-section*/
-#brands-section{
-  padding:50px 0;
+
+#brands-section{}
+#brands-section .right4{
+  width: 100%;
+}
+#brands-section .right4 img{
+  width: 150%;
+  
+  
 }
 .txt6 h3{
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+
+.conts{
+  background-color: white;
+  width:22%;
+  height:170px;
+  margin: 0 5px;
 }
 
 /*Review-section*/
@@ -193,7 +360,7 @@ span{
 
 #review-section .partition{
   width: 100%;
-  min-height: 80vh;
+  min-height:80vh;
   padding: 80px 80px;
   
 }
@@ -380,3 +547,4 @@ span{
 footer{
   margin-top: 50px;
 }
+
