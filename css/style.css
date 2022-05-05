@@ -600,7 +600,7 @@ span{
     width:130%;
   }
   #quote-section .left-section h2{
-    font-size: 35px;
+    font-size: 32px;
   }
 
   #quote-section .right-form-section{
@@ -673,6 +673,8 @@ span{
 
   #review-section .left-part, #review-section .right-part{
     width:100%;
+    margin-top: 15px;
+    height:200px;
     
   }
 
