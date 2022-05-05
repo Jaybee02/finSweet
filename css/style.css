@@ -548,6 +548,15 @@ span{
 
 
 @media (max-width:426px) {
+  html, body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
   .list-bar ul, .assistance{
     display: none;
   }
@@ -667,12 +676,23 @@ span{
     
   }
 
+  #review-section .left-part .img-p img{
+    font-size: 10px;
+  }
+
   #review-section .right-part{
     margin-top: 15px;
+    height:200px;
+  }
+
+
+  .left-part img{
+    font-size: small;
   }
 
    p{
-    font-size: 8px;
+    font-size: 10px;
+    margin-top: 13px;
   }
   #review-section .partition{
     padding: 0px;
