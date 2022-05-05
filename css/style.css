@@ -762,3 +762,143 @@ span{
   }
   
 }
+
+/* Tablet view */
+@media (max-width:769px) {
+  html, body{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .assistance {
+  display: none;
+  }
+
+  #main-section .right-hand{
+    margin-left: 15px;
+  }
+  .list-bar .list-order{
+  border:none;
+  }
+  .container{
+  width: 90%;
+  }
+  h1, #quote-section .left-section h2, .left2 h4, #offer-section .left3 h2, .text-sec h2{
+  font-size: 38px;
+  
+  }
+
+  #quote-section .left-section {
+  width: 70%;
+  }
+  #quote-section .left-section .image-box{
+  width: 10%;
+  }
+  #quote-section .left-section .text-box{
+    width: 60%;
+  }
+  #quote-section .right-form-section{
+  width: 45%;
+  }
+
+  #service-section .img-sec2 img{
+  width:70%;
+  }
+
+  #service-section .right2{
+  width: 80%;
+  }
+
+
+  #service-section .left2{
+  width:70%;
+  margin-left: 15px;
+  }
+  #service-section .right2{
+    margin-left: 30px;
+    width:70%;
+  }
+  .txt2-sec h2{
+  font-size: 20px;
+  }
+  .txt2-sec p {
+    font-size: 14px;
+    width:150%;
+  }
+  
+  #offer-section .known{
+    width:100%;
+  }
+  #offer-section .cont{
+    width:440px;
+  }
+
+  /* .flex-st{
+    flex-direction: column;
+  }
+  .cars img{
+    width:100%;
+    float: center;
+  }
+  .writ{
+    width: 100%;
+  }
+  .autos{
+    width: 100%;
+  } */
+
+  #review-section .right-part{
+    width:70%
+  }
+  .blk-btn{
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+  .writ h2{
+    font-size: 16px;
+  }
+
+  #brands-section .bras .bras-box{
+    width: 50%;
+    margin: auto;
+  }
+
+  #review-section .left-part{
+    width: 70%;
+  }
+
+  .left-part p, .right-part p{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+
+  #quote-section .right-form-section input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+
+  #contact-section .overal-contact .left-contact h3{
+    font-size: 25px;
+  }
+
+  #FAQ-section .container{
+    width: 80%;
+  }
+
+  .FAQ1-txt h5{
+    text-align: left;
+    font-size: 13px;
+  }
+  .FAQ1-txt h6{
+    font-size: 12px;
+  }
+
+
+  
+}
