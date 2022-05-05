@@ -556,6 +556,10 @@ span{
     overflow-x: hidden;
   }
 
+  /* .container{
+    width:80%;
+  } */
+
 
   .list-bar ul, .assistance{
     display: none;
@@ -762,15 +766,19 @@ span{
   
 }
 
-/* Tablet view */
+
+
+ /* Tablet view  */
 @media (max-width:769px) {
-  html, body{
+  /* html, body{
     width:100%;
     height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
+
+  
   .assistance {
   display: none;
   }
@@ -781,9 +789,9 @@ span{
   .list-bar .list-order{
   border:none;
   }
-  .container{
+   .container{
   width: 90%;
-  }
+  } 
   h1, #quote-section .left-section h2, .left2 h4, #offer-section .left3 h2, .text-sec h2{
   font-size: 38px;
   
@@ -834,22 +842,8 @@ span{
     width:440px;
   }
 
-  /* .flex-st{
-    flex-direction: column;
-  }
-  .cars img{
-    width:100%;
-    float: center;
-  }
-  .writ{
-    width: 100%;
-  }
-  .autos{
-    width: 100%;
-  } */
-
   #review-section .right-part{
-    width:70%
+    width:70%;
   }
   .blk-btn{
     padding: 10px 20px;
@@ -900,4 +894,5 @@ span{
 
 
   
-}
+} 
+ */
