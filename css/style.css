@@ -770,8 +770,8 @@ span{
 
 
  /* Tablet view  */
-@media (max-width:769px) {
-  /* html, body{
+@media(min-width:769px) {
+  html, body{
     width:100%;
     height: 100%;
     margin: 0;
@@ -792,6 +792,7 @@ span{
   }
    .container{
   width: 90%;
+  margin: 0 auto;
   } 
   h1, #quote-section .left-section h2, .left2 h4, #offer-section .left3 h2, .text-sec h2{
   font-size: 38px;
@@ -896,4 +897,4 @@ span{
 
   
 } 
- */
+
