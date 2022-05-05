@@ -545,7 +545,7 @@ span{
 
 }
 
-
+/* mobile view */
 
 @media (max-width:426px) {
   html, body{
@@ -674,12 +674,7 @@ span{
   }
 
 
-  #review-section .left-part, #review-section .right-part{
-    width:100%;
-    
-    height:200px;
-    
-  }
+ 
 
   #review-section .left-part .img-p img{
     font-size: 10px;
@@ -689,18 +684,22 @@ span{
     margin-top: 15px;
     height:200px;
   }
-
-
-  .left-part img{
-    font-size: small;
+  #review-section .left-part, #review-section .right-part{
+    width:100%;
   }
 
+  #review-section .right-part .img-p img{
+    font-size: 10px;
+  }
+  
+  
    p{
     font-size: 10px;
     margin-top: 13px;
   }
   #review-section .partition{
     padding: 0px;
+    width: 100%;
   }
   #review-section .text-sec{
     margin-bottom: 20px;
