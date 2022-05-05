@@ -162,7 +162,6 @@ span{
 /* Service-section */
 .flex{
   display:flex; 
-  flex-wrap: nowrap;
 }
 
 #service-section{
@@ -246,7 +245,7 @@ span{
 .known{
   display: flex;
   justify-content: center;
-  flex-wrap:no-wrap;
+  
 }
 .cont{
   background-color: white;
@@ -326,30 +325,31 @@ span{
 }
 
 /*Brands-section*/
-
-#brands-section{}
-#brands-section .right4{
-  width: 100%;
+#brands-section{
+  margin-top: 70px;
+  min-height: 60vh;
 }
-#brands-section .right4 img{
-  width: 150%;
-  
-  
-}
-.txt6 h3{
+#brands-section h3{
   text-align: center;
   font-size: 40px;
-  margin-bottom: 40px;
-  margin-top: 70px;
+}
+
+#brands-section .bras .bras-box{
+  
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:20%;
 }
 
 
-.conts{
-  background-color: white;
-  width:22%;
-  height:170px;
-  margin: 0 5px;
+#brands-section .bras{
+  flex-wrap: wrap;
 }
+
+
+
 
 /*Review-section*/
 #review-section{
@@ -464,10 +464,11 @@ span{
 /* Contact-section*/
 
 #contact-section{
-  padding:80px 0;
+  padding:60px 0;
   background-color: #1E1B1B;
   color:#FFFFFF;
-  height: 70vh;
+  height: 50vh;
+
 }
 
 #contact-section .overal-contact{
@@ -544,7 +545,195 @@ span{
 
 }
 
-footer{
-  margin-top: 50px;
+
+
+@media (max-width:426px) {
+  .list-bar ul, .assistance{
+    display: none;
+  }
+
+  .flex-sn{
+    flex-direction: column;
+  }
+
+  #main-section .text-sec{
+    width:100%;
+    order: 2;
+    max-height: 80vh;
+  }
+
+  h1{
+    font-size: 38px;
+  }
+
+  .right-hand {
+    width:100%;
+    order: 1;
+  }
+  
+  #main-section{
+    padding-bottom: 0;
+  }
+
+
+  
+#offer-section .left3 p{
+  font-size: 10px;
 }
 
+  #quote-section .left-section{
+    width: 100%;
+  }
+  #quote-section .left-section .text-box{
+    width:100%;
+  }
+  #quote-section .left-section .image-box img{
+    width:130%;
+  }
+  #quote-section .left-section h2{
+    font-size: 35px;
+  }
+
+  #quote-section .right-form-section{
+    width: 100%;
+  }
+
+  #quote-section .right-form-section h3{
+    font-size: 20px;
+  }
+
+
+  #service-section .left2, #service-section .right2{
+    width:100%;
+  }
+  #service-section .left2{
+    margin-bottom: 30px;
+  }
+  .left2 h4 {
+    font-size: 29px;
+  }
+  .left2 p {
+    font-size: 13px;
+  }
+  .txt2-sec{
+    margin-right: 0px;
+  }
+
+  #service-section p{
+    font-size: 13px;
+  }
+
+  .txt2-sec h2{
+    font-size:1.1rem;
+  }
+
+  #service-section .img-sec2 img{
+    margin-right: 0px;
+  }
+
+  /* Offer-section */
+  #offer-section .left3 h2{
+    font-size: 28px;
+  }
+  .known {
+    flex-wrap: wrap;
+    
+  }
+
+  .writ h2{
+    font-size: 1rem;
+  }
+
+  .blk-btn{
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+
+  .kd{
+    font-size: 25px;
+  }
+
+  .numbers{
+    font-size: 9px;
+  }
+
+  .text-sec h2{
+    font-size: 28px;
+  }
+
+
+  #review-section .left-part, #review-section .right-part{
+    width:100%;
+    
+  }
+
+  #review-section .right-part{
+    margin-top: 15px;
+  }
+
+   p{
+    font-size: 8px;
+  }
+  #review-section .partition{
+    padding: 0px;
+  }
+  #review-section .text-sec{
+    margin-bottom: 20px;
+  }
+
+
+  .txt-cont h2{
+    font-size: 1.1rem;
+  }
+
+  #FAQ-section .container{
+    width: 80%;
+  }
+
+  .FAQ1-txt h5{
+    text-align: left;
+    font-size: 11px;
+  }
+  .FAQ1-txt h6{
+    font-size: 7px;
+  }
+
+
+  #contact-section .right-contact, #contact-section .left-contact{
+    width: 100%;
+  }
+
+  #contact-section .right-contact{
+    background-color: #1E1B1B;
+  }
+
+  #contact-section .list-bar ul, #contact-section .assistance{
+    display: block;
+  }
+
+ #contact-section .list-bar .list-order{
+   border: none;
+ }
+  #contact-section{
+    height:100vh;
+  }
+  #contact-section .assistance .gs{
+    margin-right: 50px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  #contact-section .jus-right{
+    margin: 20px;
+    margin-left: 20px;
+  }
+  #contact-section .nav-bar img {
+    margin-right: 60px;
+}
+
+  #brands-section .bras .bras-box{
+    width: 100%;
+    margin: auto;
+  }
+  
+}
