@@ -572,16 +572,19 @@ span{
   }
 
   h1{
-    font-size: 38px;
+    font-size: 35px;
   }
 
   .right-hand {
     width:100%;
     order: 1;
   }
+
+  
   
   #main-section{
     padding-bottom: 0;
+    min-height: auto;
   }
 
 
@@ -673,7 +676,7 @@ span{
 
   #review-section .left-part, #review-section .right-part{
     width:100%;
-    margin-top: 15px;
+    
     height:200px;
     
   }
