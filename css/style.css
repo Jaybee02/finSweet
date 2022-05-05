@@ -671,6 +671,7 @@ span{
 
   .numbers{
     font-size: 9px;
+    margin-right: 10px;
   }
 
   .text-sec h2{
@@ -684,7 +685,7 @@ span{
     font-size: 10px;
   }
 
-  #review-section .right-part{
+  #review-section .right-part, #review-section .left-part{
     margin-top: 15px;
     height:200px;
   }
