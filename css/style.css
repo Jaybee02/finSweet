@@ -280,24 +280,47 @@ span{
 }
 
 /*Worshop*/
-#workshop-section{
-  background-color: #F2F2F2;;
+#workshop{
+  background-color: #F2F2F2;
+  height:300px;
+  display: flex;
 }
 
-.autos{
-  display:flex;
+#workshop .car-work{
+  width:20%;
+  background: url(../img/car.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height:300px;
 }
-.writ {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding:80p 0x;
+
+#workshop .text-work{
+  width: 40%;
   background-color: #FF6433;
-  color:white;
+  height:300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.writ h2{
-  margin-top: 90px;
+
+#workshop .text-work h2{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
+
+#workshop .mech-work{
+  width:40%;
+  height:300px;
+  background: url(../img/mech.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+
 
 .blk-button{
   padding:23px 20px;
@@ -312,20 +335,20 @@ span{
   margin-right: 200px;
 }
 
-.flex2{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.kd{
+#figures .no{
   color:#661CE7;
-  text-decoration: solid;
-  font-size: 45px;
+  font-size: 25px;
   font-weight: 750;
+  margin-right: 100px;
 }
-.numbers{
-  margin-top: 20px;
+#figures .no h5{
+  color: #1E1B1B;
+}
+#figures .no h2{
+  text-align: center;
+}
+#figures{
+  padding: 20px 0;
 }
 
 /*Brands-section*/
@@ -592,7 +615,9 @@ span{
     order: 1;
   }
 
-  
+  /* .cars{
+    width: 10%;
+  }   */
   
   #main-section{
     padding-bottom: 0;
@@ -612,7 +637,9 @@ span{
     width:100%;
   }
   #quote-section .left-section .image-box img{
-    width:130%;
+    width:150%;
+    margin-top: 15px;
+    margin-right: 20px;
   }
   #quote-section .left-section h2{
     font-size: 32px;
@@ -669,8 +696,10 @@ span{
   }
 
   .blk-btn{
-    margin-right: 5px;
-    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 4px;
+    margin-right: 20px;
   }
 
   .kd{
@@ -687,10 +716,9 @@ span{
   }
 
 
- 
-
   #review-section .left-part .img-p img{
     font-size: 10px;
+    width:60%;
   }
 
   #review-section .right-part, #review-section .left-part{
@@ -701,12 +729,42 @@ span{
     width:100%;
   }
 
-  #review-section .right-part .img-p img{
+  #review-section .right-part .img-pp img{
     font-size: 10px;
+    width:60%;
+    
+  }
+
+
+  #workshop{
+    flex-direction: column;
+  }
+  #workshop .text-work{
+    width: 100%;
+    height: 145px;
+    font-size: smaller;
+  }
+  #workshop .text-work h2{
+    font-size: 16px;
   }
   
+  #workshop .car-work,#workshop .mech-work{
+    width: 100%;
+  }
   
-   p{
+  #figures .no h5{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  #figures .no h2{
+    margin-bottom: 15px;
+  }
+
+  #figures .no{
+    margin-bottom: 12px;
+  }
+   h5{
     font-size: 10px;
     margin-top: 13px;
   }
