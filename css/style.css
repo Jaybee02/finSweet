@@ -1043,7 +1043,7 @@ body .service-s{
  }
 
  .right-hs .text-sec-rg{
-   padding: 80px 60px;
+   padding: 20px 80px;
  }
  .right-hs .text-sec-rg h1{
    font-size: 48px;
@@ -1053,6 +1053,7 @@ body .service-s{
  .right-hs .text-sec-rg p{
    color:#F2F2F2;
    opacity: 0.5;
+   font-size: 12px;
  }
 
  #main-section-s.flex-s{
@@ -1238,7 +1239,8 @@ body .service-s{
     margin-left: 20px;
   }
   .right-hs .text-sec-rg h1 {
-    font-size: 24px;
+    font-size: 20px;
+    margin-bottom: 40px;
   }
   #auto-sec .left-hs2 img{
     width: 60%;
@@ -1290,5 +1292,15 @@ body .service-s{
   }
   #prob-section .right-prob{
     width:80%;
+  }
+
+  .right-hs .text-sec-rg p{
+    font-size: 7.5px;
+    margin: 0 auto;
+  }
+
+  .right-hs .text-sec-rg {
+    width:100%;
+    
   }
 }
